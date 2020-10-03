@@ -1,0 +1,45 @@
+建议电脑端的记事本查看此文件 手机端的缩进不合理
+安装与配置 
+	. 打开文件扩展名
+	. 安装sublime.exe 
+		双击exe文件
+		一路下一步 
+	. 安装python.exe
+		双击exe文件
+		一定要勾选第一页的‘add to path’
+		若没勾选 先卸载后重新安装
+	. 安装flask（一个python第三方库）
+		win+R 输入cmd 回车 打开命令行
+		输入 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple flask 回车 
+	. 双击运行__init__.py 
+		此程序运行时会闪一下 自动结束
+		此程序会在此目录下生成Note.vbs和Note.bat文件
+	. 配置sublime插件
+		打开刚刚安装的sublime软件 
+		菜单栏中的Preferences -> Browser Packages ->User目录（若没有新建一个）
+		将sublime目录（压缩包里的文件夹）下的文件放入User目录下
+	. 配置浏览器端
+		找到‘C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp’目录
+			在文件管理器的地址栏输入以上路径
+		将Note.vbs放在这个目录下
+		这个会让程序开机自启动 会弹出危险提示 允许即可
+	. 重启电脑 
+		重启后不要立刻输入网址 稍等几秒 等待浏览器端服务启动
+		若网址无法打开可以先手动启动（反馈一下，我找找原因）双击Note.bat文件 不要关闭弹出来的命令行窗口
+	. 浏览器端使用
+		浏览器输入网址127.0.0.1:5000（是在地址栏输入不是百度搜索框）（建议保存为书签，方便使用）
+		搜索Note（这个是默认根节点）
+		使用方法参照website视频中的操作
+		以-v结尾 可以模糊搜索 比如 搜索‘微积分 -v’（不带引号）
+	. sublime端使用
+		ctrl+k（组合键）调出搜索框
+		在搜索页面上进行修改
+		ctrl+w 关闭搜索页面（不是右上角的x）
+		使用方法参照sublime视频中的操作
+注意事项
+	. sublime使用
+		缩进体现层级结构
+		不要有缩进跳跃（下一行最多比上一行的缩进层级多一级）
+		不要用空格缩进 要用tab键
+		以'>'结尾表示下级页面的意思
+任何问题可以直接问我，提建议有奖励哦
