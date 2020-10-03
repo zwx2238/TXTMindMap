@@ -8,6 +8,7 @@
 		双击exe文件
 		一定要勾选第一页的‘add to path’
 		若没勾选 先卸载后重新安装
+		(无法上传此文件，请自行到python官网下载)
 	. 安装flask（一个python第三方库）
 		win+R 输入cmd 回车 打开命令行
 		输入 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple flask 回车 
