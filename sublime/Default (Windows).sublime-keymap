@@ -1,5 +1,0 @@
-[
-	{"keys":["ctrl+k"],"command":"txt_mind_map"},
-	{"keys":["ctrl+'"],"command":"insert_greater_than"},
-	{"keys":["alt+w"],"command":"close_all"}, 
-]
